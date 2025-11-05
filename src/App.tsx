@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Tyktt-Home-page-">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
