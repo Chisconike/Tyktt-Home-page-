@@ -1,0 +1,138 @@
+.nav_color {
+  background-color: #1983C6;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.copy_rite {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.social-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Platform colors */
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+.bg-twitter {
+  background-color: #55acee;
+}
+
+.bg-google {
+  background-color: #dd4b39;
+}
+
+.bg-instagram {
+  background-color: #ac2bac;
+}
+
+/* Landing Page */
+
+.hero_section {
+  background-image: url("./assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.make_background {
+  background-color: #1983C6 !important;
+  color: #fff !important;
+}
+
+.make_color {
+  color: #1983C6 !important;
+}
+
+.make_bg {
+  background-color: #E9F3FF;
+}
+
+.step-counter {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  width: 60px;
+  height: 60px;
+}
+
+.browser-mockup {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.browser-header {
+  background: #f1f1f1;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.dot-red {
+  background: #ff5f57;
+}
+
+.dot-yellow {
+  background: #ffbd2e;
+}
+
+.dot-green {
+  background: #28ca42;
+}
+
+.about_img {
+  background-image: url("./assets/about.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.make_image {
+  background-image: url("./assets/terms.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: grid;
+  place-items: center;
+}
+
+.make_image_contact {
+  background-image: url("./assets/contact.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: grid;
+  place-items: center;
+}
